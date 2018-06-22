@@ -309,7 +309,7 @@ padding space
 #navigation.small-screen.select-list { padding: 5px;}
 /*-------------- page header ------------*/
 .page-header{background: linear-gradient(rgba(17, 22, 26, 0.7),
-  rgba(17, 22, 26, 0.7)), rgba(17, 22, 26, 0.7) url(../images/page-header.jpg) no-repeat center;
+  rgba(17, 22, 26, 0.7)), rgba(17, 22, 26, 0.7) url(../images/blogfixed.png) no-repeat center;
 background-size: cover; margin: 0;}
 .page-caption{padding: 105px 0;}
 .page-title{color: #fff;}
