@@ -169,7 +169,7 @@ padding space
 .bg-white{background-color: #fff;}
 .outline{}
 .section-title{}  
-.content{padding-bottom: 100px;padding-top: 100px;}
+--content
 .primary-sidebar{}
 .secondary-sidebar{}
 
@@ -314,6 +314,13 @@ background-size: cover; margin: 0;}
 .page-caption{padding: 105px 0;}
 .page-title{color: #fff;}
 .page-containt{font-size: 14px; color: #fff;}
+/*-------------- Blog single------------*/
+.page-image {background: linear-gradient(rgba(17, 22, 26, 0.7),
+  rgba(17, 22, 26, 0.7)), rgba(17, 22, 26, 0.7) url(../images/blox.png) no-repeat center;
+background-size: cover; margin: 0;}
+.page-caption{padding: 105px 0;}
+.page-title{color: #fff;}
+.page-containt{font-size: 14px; color: #fff;}
 /*-------------- breadcrumb ------------*/
 .breadcrumb{padding: 20px 0px; margin-bottom: 0px; list-style: none;
   background-color: transparent; border-radius: 0px; color: #e9e8e8;
@@ -331,15 +338,15 @@ background-size: cover; margin: 0;}
 /*-------------- footer ------------*/
 .footer{background-color: #2b2a2a;}
 .footer{}
-.footer-title{margin-bottom: 25px; color: #fff; }
+.footer-title{margin-bottom: 0px; color: #fff; }
 .footer-widget{color: #808080;}
 .contact{padding-left: 0px;}
 .footer-widget .contact ul{}
-.footer-widget .contact li {position: relative; padding-left: 30px; margin-bottom: 20px;}
+.footer-widget .contact li {position: relative; padding-left: 30px; margin-bottom: 0px;}
 .footer-widget .contact li i {display: block; position: absolute; top: 3px; left: 0; width: 30px; font-size: 18px;
  text-align: center; color: #f76055; }
 .footer-widget p{color: #808080;}
-.footer-call{margin-bottom: 5px;}
+.footer-call{margin-bottom: 0px;}
 .footer-email{}
 .footer-link{color: #808080; font-size: 14px;}
 .footer-widget i{font-size: 16px; color: #f76055; padding-right: 10px;}
@@ -548,7 +555,7 @@ hr{border-bottom: #eeeeee; margin-bottom: 30px; margin-top: 30px;}
   /*----- cta -----*/
   .cta-text{margin-bottom: 30px; text-align: center;}
   /*----- footer -----*/
-  .footer-widget {margin-bottom: 30px;}
+  .footer-widget {margin-bottom: 0px;}
   .childern {padding-left: 0px;}
 }
 /* Custom sizes (768px to 1024px) */
